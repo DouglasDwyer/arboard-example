@@ -11,4 +11,7 @@ categories = ["gui", "wasm", "web-programming"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
+arboard = { path = "../arboard" }#{ git = "https://github.com/DouglasDwyer/arboard", rev = "fcb36ab5b00aeaf7b92f3d31bd863b5c8e885cbc" }
+gloo-timers = "0.3.0"
+web-sys = { version = "0.3.70" }
 yew = { version="0.20", features=["csr"] }

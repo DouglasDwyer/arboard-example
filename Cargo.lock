@@ -32,6 +32,7 @@ checksum = "d301b3b94cb4b2f23d7917810addbbaff90738e0ca2be692bd027e70d7e0330c"
 [[package]]
 name = "arboard"
 version = "3.4.0"
+source = "git+https://github.com/DouglasDwyer/arboard?rev=7123c4375a853ae01cc0542604fe3a43fa7080ef#7123c4375a853ae01cc0542604fe3a43fa7080ef"
 dependencies = [
  "clipboard-win",
  "core-graphics",
